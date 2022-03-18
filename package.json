@@ -1,6 +1,6 @@
 {
-  "name": "@hassanmojab/react-modern-calendar-datepicker",
-  "version": "3.1.7",
+  "name": "@james.pandian/react1-modern-calendar-datepicker-ui",
+  "version": "1.0.1",
   "description": "A modern, beautiful, customizable date picker for React",
   "main": "lib/index.js",
   "types": "index.d.ts",
@@ -20,14 +20,17 @@
     "lib",
     "index.d.ts"
   ],
-  "author": "Kiarash Zarinmehr",
+  "author": "james.pandian",
   "homepage": "https://kiarash-z.github.io/react-modern-calendar-datepicker",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HassanMojab/react-modern-calendar-datepicker.git"
+    "url": "git+https://github.com/jamespandian/react-modern-calendar-datepicker.git"
   },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/james.pandian"
+},
   "bugs": {
-    "url": "https://github.com/HassanMojab/react-modern-calendar-datepicker/issues"
+    "url": "https://github.com/jamespandian/react-modern-calendar-datepicker/issues"
   },
   "license": "MIT",
   "keywords": [
@@ -108,5 +111,8 @@
       "eslint --fix",
       "git add"
     ]
+  },
+  "directories": {
+    "test": "test"
   }
 }
